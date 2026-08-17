@@ -830,7 +830,7 @@ The following claim keys can be passed in `requestedClaims` in `generate-url` or
 
 ---
 
-## Error Code Reference
+## Error Code Reference -
 
 | HTTP | `errorCode` | Description |
 |------|-------------|-------------|
