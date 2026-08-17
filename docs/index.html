@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DigiLocker Developer Guide</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="DigiLocker Integration Developer Guide">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <!-- Theme (Vue theme - clean & professional) -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+    <!-- Optional: Dark mode support -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
+</head>
+<body>
+<div id="app"></div>
+
+<script>
+    window.$docsify = {
+        name: 'DigiLocker Developer Guide',
+        repo: '',                          // Yahan apna GitHub repo URL daal sakte ho (optional)
+        homepage: 'index.md',
+        loadSidebar: false,
+        subMaxLevel: 3,                    // Heading levels for sidebar
+        maxLevel: 4,
+        auto2top: true,
+        search: {
+            maxAge: 86400000,
+            paths: 'auto',
+            placeholder: 'Search documentation...',
+            noData: 'No results found!',
+            depth: 4
+        }
+    }
+</script>
+
+<!-- Docsify core -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+<!-- Search plugin -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+
+<!-- Optional: Copy code button -->
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+
+<!-- Optional: Pagination -->
+<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+</body>
+</html>
